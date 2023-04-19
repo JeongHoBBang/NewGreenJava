@@ -33,6 +33,16 @@ public class ArrayEx20er {
                 if (x == 0 && y == 0)
                     break;
             }
+            if(input.length()!=2||x<=0||x>SIZE||y<=0||y>=SIZE){
+                System.out.println("잘못된 입력입니다. 다시입력해주세요.");
+                continue;
+            }
+            board[x][y]=shipBoard[x-1][y-1]==1 ? 'O' : 'X';
+            for (int i = 0; i < SIZE; i++) {
+                System.out.println(board[i]);
+                System.out.println();
+
+            }
 
 
 
