@@ -12,6 +12,9 @@ class MyTv2{
     void channelUp(){channel++;}
     void channelDown(){channel--;}
     Speaker speaker;
+    MyTv2(){
+        speaker = new Speaker();
+    }
 
     void volumnUp(){speaker.volumnUp();}
     void volumnDown(){speaker.volumnDown();}
