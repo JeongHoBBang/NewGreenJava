@@ -1,4 +1,6 @@
-package com.green.java.ch6;
+package com.green.java.ch06;
+
+import java.io.PrintStream;
 
 public class MyMethodTest {
     public static void main(String[] args){
@@ -9,6 +11,9 @@ public class MyMethodTest {
         mm.sum(10,245);
 
         int result = mm.sum2(10, 245);
-        System.out.println("result:"+result);
+        System.out.println("result:"+result);//객체 안의 객체
+
+        PrintStream ps = System.out;
+        ps.println("result2:"+result);
     }
 }

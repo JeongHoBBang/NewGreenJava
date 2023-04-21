@@ -1,4 +1,4 @@
-package com.green.java.ch6;
+package com.green.java.ch06;
 
 public class ObjectPrint {
     public static void main(String[] args) {

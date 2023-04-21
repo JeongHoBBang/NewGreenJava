@@ -1,4 +1,4 @@
-package com.green.java.ch6;
+package com.green.java.ch06;
 
 public class MyMethod {
     //void >return type,리턴타입
@@ -16,5 +16,5 @@ public class MyMethod {
     }
     int sum2(int n1, int n2){
         return n1+n2;
-    }
+    }//int는 변환타입, int n1, int n2,는 기입되는 타입 return n1+n2는 n1+n2를 반환한다.
 }
