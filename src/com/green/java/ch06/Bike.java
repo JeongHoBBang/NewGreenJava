@@ -1,7 +1,7 @@
 package com.green.java.ch06;
 
 public class Bike {
-    String brand;//클래스 변수 클래스 멤버필드
+    String brand;//클래스 변수 클래스 <<멤버필드
     String model;//
     int price;
 
