@@ -13,10 +13,10 @@ public class CardDeck {
 //            cards[i] = new Card("","");
 //            }
         int idx = 0;
-        for (int i = 0; i < Card.KINDS.length; i++) {
-            for (int z = 1; z <= Card.NUM_MAX; z++) {
+        for (int i = 0; i < Card.KINDS.length; i++) {//카드 클래스안에 있고 멤버필드다. 메소드는 아니다 전부 대문자라 변하지 않는 상수이다, 스태틱이다 .을쓸수있는건 객체 주소값 밖에 없다. 배열이다.
+            for (int z = 1; z <= Card.NUM_MAX; z++) {//정수
                 String num = null;
-                switch (z) {
+                switch (z) {//분기문
                     case 1:
                         num = "A";
                         break;
@@ -43,7 +43,7 @@ public class CardDeck {
     }
 
 
-    void openCards() {
+    void openCards() {//<메소드라 부름
         for (Card c : cards) {
             System.out.println(c);
         }

@@ -9,11 +9,11 @@ public class CardTest {
         cd.openCards();//이렇게 적으면 보이드
         System.out.println("------");
 
-        Card c1 = cd.pick();// = 이있으면 리턴 타입
-        System.out.println(c1.kind+","+c1.num);
+        for (int i = 0; i < cd.cards.length; i++) {
+            cd.pick();
 
-        Card c2 = cd.pick();// = 이있으면 리턴 타입
-        System.out.println(c2.kind+","+c2.num);
+        }
+        cd.pick();
 
 
 
