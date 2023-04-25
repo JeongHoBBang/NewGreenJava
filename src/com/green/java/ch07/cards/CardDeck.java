@@ -1,8 +1,6 @@
 package com.green.java.ch07.cards;
 
 public class CardDeck {
-
-
     Card[] cards;
     int idx;
 
@@ -72,17 +70,3 @@ public class CardDeck {
 
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
