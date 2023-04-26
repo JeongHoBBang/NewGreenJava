@@ -3,6 +3,7 @@ package com.green.java.ch07;
 public class AccessModifier {
     /*
     private,default,protected,public
+    파일명이랑 똑같은 클래스명만 앞에 public 붙일수 있음
      */
     public static void main(String[] args) {
         ModifierTest mt1 = new ModifierTest();
