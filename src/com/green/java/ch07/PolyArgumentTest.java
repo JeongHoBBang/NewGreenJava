@@ -61,8 +61,8 @@ class Tv2 extends Product{
 class Computer extends Product{
     public Computer(){
         super(200);
-    }
+    }//생성자랑 메소드랑 다른점은 리턴타입이 없음 ,클래스명이랑 같아야함
     public String toString(){
         return "Computer";
-    }
+    }//오버라이딩
 }
