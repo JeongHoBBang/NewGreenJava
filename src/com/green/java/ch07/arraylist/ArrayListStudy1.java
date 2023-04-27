@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class ArrayListStudy1 {
     public static void main(String[] args) {
-        ArrayList List = new ArrayList();
+        ArrayList List = new ArrayList();//아무거나 다 들어가서 내가 뭘넣었는지 기억해야함.
         List.add(10);//0번방
         List.add(20);//1번방
         List.add("ddd");

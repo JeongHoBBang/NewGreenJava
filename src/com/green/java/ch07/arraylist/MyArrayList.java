@@ -28,17 +28,18 @@ public class MyArrayList {
 //        for (int i : items) {
 //            System.out.println(i);
     }
-    public void add(int idx, int value){
-        if(idx > items.length) {
+
+    public void add(int idx, int value) {
+        if (idx > items.length) {
             return;
         }
-        int[] temp = new int [items.length+1];
+        int[] temp = new int[items.length + 1];
         temp[idx] = value;
         for (int i = 0; i < items.length; i++) {
-            if(i<idx){
+            if (i < idx) {
                 temp[i] = items[i];
-            }else{
-                temp[i+1] = items[i];
+            } else {
+                temp[i + 1] = items[i];
             }
 
         }
@@ -51,7 +52,7 @@ public class MyArrayList {
         if (items.length > 0) {
             str += items[0];
             for (int i = 1; i < items.length; i++) {
-                str +=","+items[i];
+                str += "," + items[i];
 
             }
         }
@@ -61,7 +62,43 @@ public class MyArrayList {
 
 
     }
+
+    public int size() {
+        return items.length;
+    }
+
+    public int get(int idx) {
+
+        return items[idx];
+    }
+
+    public void bubbleSort() {
+        for (int i = items.length-1; i > 0; i--) {
+            for (int z = 0; z <i; z++) {
+                int sideIdx = z + 1;
+                if(items[z]>items[sideIdx]){
+                    int temp = items[z];
+                    items[z] = items[sideIdx];
+                    items[sideIdx]=temp;
+
+
+
+                }
+
+
+            }
+            
+        }
+    }
+
+
+
+
 }
+
+
+
+
 
 
 
