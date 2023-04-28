@@ -8,6 +8,9 @@ public class OperatorStudy5 {
         num = -num;
 
         System.out.println(num);
+        int num2 = 5;
+        num2 -=num2;
+        System.out.println(num2);
 
     }
 

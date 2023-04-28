@@ -11,5 +11,7 @@ public class OperatorEx18 {
         System.out.println(Math.ceil(315.01)); //316.0
         System.out.println(Math.floor(315.999999)); //315.0
 
+        //round 반올림,ceil올림,floor버림
+        //ceil는 페이징 처리할때 씀! 0.1이라도 있으면 올릴려고 함!
     }
 }
