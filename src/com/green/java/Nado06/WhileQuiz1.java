@@ -13,10 +13,6 @@ public class WhileQuiz1 {
             if (input == 0) {
                 break;
             }
-
         }System.out.println("합계 :" + sum);
-
     }
     }
-
-
