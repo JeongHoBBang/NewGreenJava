@@ -8,6 +8,7 @@ public class ArrayStudy5 {
 
 
         for(int i=0; i<copyArr.length; i++) {
+            copyArr[i] = numArr[i];//딮카피
             System.out.printf("copyArr[%d] : %d\n", i, copyArr[i]);
         }
 

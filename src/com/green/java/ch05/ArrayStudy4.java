@@ -4,7 +4,7 @@ public class ArrayStudy4 {
     public static void main(String[] args) {
 
         int[] numArr = new int[] { 10, 20, 30, 40, 50 };
-        int[] copyArr = numArr;
+        int[] copyArr = numArr; //쉘로우 카피
 
         numArr[0] = 123;
 
