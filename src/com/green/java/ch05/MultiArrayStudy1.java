@@ -22,6 +22,8 @@ public class MultiArrayStudy1 {
 
 
 
+
+
         int[][] score = new int[4][3];
 
         System.out.println(score[0][0]);

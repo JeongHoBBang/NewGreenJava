@@ -17,6 +17,5 @@ public class CarTest {
 
         System.out.println(c1.brand);
         System.out.println(c2.brand);
-
     }
 }
