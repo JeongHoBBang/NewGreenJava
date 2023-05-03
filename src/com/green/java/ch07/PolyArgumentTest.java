@@ -8,6 +8,10 @@ public class PolyArgumentTest {
         Buyer buyer = new Buyer();
         buyer.buy(tv); //100만원에 구매하였습니다.
         buyer.buy(com);//200만원에 구매하였습니다.
+        buyer.buy(com);//200만원에 구매하였습니다.
+        buyer.buy(com);//200만원에 구매하였습니다.
+        buyer.buy(com);//200만원에 구매하였습니다.
+        buyer.buy(com);//200만원에 구매하였습니다.
 
         buyer.printState(); // 나의 남은 돈은 얼마입니다. 포인트는 %,d 점입니다.
 

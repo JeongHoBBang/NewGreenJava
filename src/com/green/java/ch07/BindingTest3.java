@@ -6,7 +6,7 @@ public class BindingTest3 {
         Child3 c = new Child3();
 
        p.method();
-        c.method(5);
+       c.method(5);
 
     }
 }

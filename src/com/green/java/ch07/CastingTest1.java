@@ -7,7 +7,7 @@ public class CastingTest1 {
         FireCar fc2 = null;
 
         fc.water();
-        car=fc;
+        car=fc; //
         car = new Car();
         if(car instanceof FireCar) {//car가 car객체를 가지고 있으면 false가뜬다.
             fc2 = (FireCar) car;
