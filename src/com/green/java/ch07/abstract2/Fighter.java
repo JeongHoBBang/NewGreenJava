@@ -1,6 +1,6 @@
 package com.green.java.ch07.abstract2;
 
-public class Fighter implements Fightable {
+public class Fighter implements Fightable, Runable, CanFly {
 
     @Override
     public void sum(int x, int y) {
@@ -9,8 +9,18 @@ public class Fighter implements Fightable {
     }
 
     @Override
+    public void run() {
+
+    }
+
+    @Override
     public void move(int x, int y) {
         System.out.printf("좌표 %d, %d로 이동", x, y);
+    }
+
+    @Override
+    public void fly() {
+
     }
 }
 

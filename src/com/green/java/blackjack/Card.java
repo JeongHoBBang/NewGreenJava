@@ -16,7 +16,7 @@ public class Card {
         return denomination;
     }
     @Override
-    public String toString(){return pattern+""+denomination;
+    public String toString() {
+        return String.format("Card{%s, %s}", pattern, denomination);
     }
-
 }

@@ -13,17 +13,13 @@ public class TryCatchStudy5 {
             e.printStackTrace();
         }
         otherGetConnection2();
-
     }
-
     public static void getConnection() throws Exception {
         System.out.println("DB 연결!!");
     }
-
     public static void otherGetConnection() throws Exception {
         getConnection();
     }
-
     public static void otherGetConnection2() {
         try {
             otherGetConnection();

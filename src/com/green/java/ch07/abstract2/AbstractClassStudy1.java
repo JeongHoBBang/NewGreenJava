@@ -9,7 +9,6 @@ public abstract class AbstractClassStudy1 {
         return n1*n2;
     }
 
-
     abstract void sum(int n1,int n2);
 }
 

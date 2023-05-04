@@ -22,3 +22,8 @@ public class ArrayListStudy3 {
         System.out.println(List.size());//몇개인줄 알게함 리턴메소드임. 리턴타입은 int!
     }
 }
+
+
+
+
+

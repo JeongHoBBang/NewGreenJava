@@ -13,8 +13,8 @@ public class Poly {
         Animal ani = new Dog();
         ani.crying();
 
-        ani = new Animal();
-        Dog dog1 = (Dog)ani; //자동 형변환 안해줘서 내가 (Dog)넣어 줘야함
+        //ani = new Animal();
+        Dog dog1 = (Dog)ani; //자동 형변환 안해줘서 내가 (Dog)넣어 줘야함 형
         dog1.crying();
         //dog1.equals("");
         dog1.jump();
