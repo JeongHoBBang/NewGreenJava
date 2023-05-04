@@ -73,28 +73,41 @@ public class MyArrayList {
     }
 
     public void bubbleSort() {
-        for (int i = items.length-1; i > 0; i--) {
-            for (int z = 0; z <i; z++) {
+        for (int i = items.length - 1; i > 0; i--) {
+            for (int z = 0; z < i; z++) {
                 int sideIdx = z + 1;
-                if(items[z]>items[sideIdx]){
+                if (items[z] > items[sideIdx]) {
                     int temp = items[z];
                     items[z] = items[sideIdx];
-                    items[sideIdx]=temp;
-
+                    items[sideIdx] = temp;
 
 
                 }
 
 
             }
-            
+
         }
     }
 
+    public void set(int num1, int num2) {
+        items[num1] = num2;
 
+    }
 
-
+    public boolean contains(int num) {
+        for (int i = 0; i < items.length; i++) {
+            if (items[i] == num) {
+                return true;
+            } else {
+            }
+        }return false;
+    }
 }
+
+
+
+
 
 
 
